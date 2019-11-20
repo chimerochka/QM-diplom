@@ -5,24 +5,25 @@ body {
   font-family: Open Sans, Arial, sans-serif;
   }
 
-
 * {
   box-sizing: border-box;
 }
 
 @font-face {
-  src: url("");
   font-family: Open Sans;
-  font-weight: 400;
-  font-style: normal;
+  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Regular.ttf");
+  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Regular.woff");
+  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Regular.woff2");
 }
 
 @font-face {
-  src: url("");
   font-family: Open Sans;
+  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Bold.ttf");
+  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Bold.woff");
+  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Bold.woff2");
   font-weight: 700;
-  font-style: normal;
 }
+
 
 
 /*================== header desktop ==================*/
@@ -604,14 +605,17 @@ body {
     font-size: 50px;
   }
 
-  .strategy-title .strategy-number { 
+  .strategy-number { 
     padding: 20px 30px;
     font-size: 20px;
-    left: calc( -1*calc(13vw - 84px) - 84px / 2);
   }
 
-  .title-middle .strategy-number {
-    /*left: calc( -1*calc(13vw - 84px) - 84px / 2);*/
+  .number-one , .number-three {
+    left: calc(-13vw + 41px);
+  }
+
+  .number-two{
+    right: calc(-13vw + 41px);
   }
 
   .strategy-title .strategy-number::after {
@@ -641,11 +645,14 @@ body {
   .strategy-title .strategy-number { 
     padding: 55px 70px;
     font-size: 25px;
-    /*left: calc( -204px(204px = 120px + 168px / 2);*/
   }
 
-  .title-middle .strategy-number {
-    /*left: calc( -1*calc(13vw - 84px) - 84px / 2);*/
+  .number-one , .number-three {
+    left: -204px;
+  }
+
+  .number-two {
+    right: -204px;
   }
 
   .strategy-title .strategy-number::after {
