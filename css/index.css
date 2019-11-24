@@ -450,7 +450,12 @@ body {
 
 @media (min-width: 961px) {
   .athlets-container {
-    padding-bottom: 70px;
+    padding-bottom: 35px;
+  }
+
+  .players-container {
+    overflow-x: hidden;
+    padding-top: 35px;
   }
 
   .athlets-wrapper {
@@ -505,8 +510,7 @@ body {
   .players-title-wrapper::after {
     background-image: url("../img/basketballer_991.png");
     left: 43%;
-    top: -50px;
-    width: 65%;
+    width: 60%;
     background-size: contain;
   }
   
