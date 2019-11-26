@@ -11,16 +11,12 @@ body {
 
 @font-face {
   font-family: Open Sans;
-  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Regular.ttf");
-  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Regular.woff");
-  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Regular.woff2");
+  src: url("../fonts/OpenSans-Regular.woff");
 }
 
 @font-face {
   font-family: Open Sans;
-  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Bold.ttf");
-  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Bold.woff");
-  src: url("https://github.com/chimerochka/QM-diplom/blob/master/fonts/OpenSans-Bold.woff2");
+  src: url("../fonts/OpenSans-Bold.woff");
   font-weight: 700;
 }
 
@@ -608,7 +604,7 @@ body {
   }
 
   .strategy-number { 
-    padding: 20px 30px;
+    padding: 25px 30px;
     font-size: 20px;
   }
 
@@ -645,7 +641,7 @@ body {
   }
 
   .strategy-title .strategy-number { 
-    padding: 55px 70px;
+    padding: 55px 65px;
     font-size: 25px;
   }
 
